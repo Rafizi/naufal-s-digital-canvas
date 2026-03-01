@@ -21,7 +21,7 @@ const HeroSection = () =>
     </div>
 
     {/* Photo — centered, z-10 */}
-    <div className="absolute bottom-0 left-1/2 -translate-x-1/2 z-10 pointer-events-none">
+    <div className="absolute bottom-0 left-1/2 -translate-x-1/2 z-20 pointer-events-none">
       <motion.img
       src={naufalPhoto}
       alt="Naufal Ar Rafizi"
@@ -33,7 +33,7 @@ const HeroSection = () =>
     </div>
 
     {/* Content overlay — z-20 */}
-    <div className="relative z-20 w-full">
+    <div className="relative z-10 w-full">
       {/* Main heading */}
       <div className="container mx-auto px-4">
         <motion.h1
