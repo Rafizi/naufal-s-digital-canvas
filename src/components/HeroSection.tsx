@@ -51,7 +51,7 @@ const HeroSection = () =>
       </div>
 
       {/* Bottom bar */}
-      <div className="mt-8 pb-8">
+      <div className="mt-8 pb-8 relative z-30">
         <div className="container mx-auto px-4 flex flex-col md:flex-row items-center justify-between gap-6">
           {/* Left text */}
           <motion.p
