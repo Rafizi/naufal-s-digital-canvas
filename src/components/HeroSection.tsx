@@ -21,7 +21,7 @@ const HeroSection = () =>
     </div>
 
     {/* Photo — centered, z-10 */}
-    <div className="absolute bottom-0 left-1/2 -translate-x-1/2 z-20 pointer-events-none">
+    <div className="absolute bottom-0 left-1/2 -translate-x-1/2 z-10 pointer-events-none">
       <motion.img
       src={naufalPhoto}
       alt="Naufal Ar Rafizi"
@@ -33,7 +33,7 @@ const HeroSection = () =>
     </div>
 
     {/* Content overlay — z-20 */}
-    <div className="relative z-10 w-full">
+    <div className="relative z-100 w-full">
       {/* Main heading */}
       <div className="container mx-auto px-4">
         <motion.h1
@@ -42,15 +42,15 @@ const HeroSection = () =>
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8 }}>
 
-          A WORLD
+          I'M NAUFAL
           <br />
-          FRAMED IN
+          YOUR CODER
           <br />
-          <span className="text-primary-foreground/80">CODE</span>
+          <span className="text-primary-foreground/80">EXPERT</span>
         </motion.h1>
       </div>
 
-      {/* Bottom bar */}
+      {/* Bottom Bar */}
       <div className="mt-8 pb-8 relative z-30">
         <div className="container mx-auto px-4 flex flex-col md:flex-row items-center justify-between gap-6">
           {/* Left text */}
