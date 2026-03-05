@@ -1,6 +1,10 @@
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
-import { Tooltip, TooltipContent, TooltipTrigger } from "@/components/ui/tooltip";
+import {
+  Tooltip,
+  TooltipContent,
+  TooltipTrigger,
+} from "@/components/ui/tooltip";
 
 const navItems = [
   { label: "Home", href: "#home" },
@@ -13,9 +17,12 @@ const Navbar = () => {
   const [open, setOpen] = useState(false);
 
   return (
-   <nav className="fixed top-0 left-0 w-full z-50 bg-background/80 backdrop-blur-md border-b border-border/50">
+    <nav className="fixed top-0 left-0 w-full z-50 bg-background/80 backdrop-blur-md border-b border-border/50">
       <div className="container mx-auto flex items-center justify-between h-16 px-4">
-        <a href="#home" className="font-heading font-extrabold text-lg tracking-tight">
+        <a
+          href="#home"
+          className="font-heading font-extrabold text-lg tracking-tight"
+        >
           N<span className="text-primary">.</span>
         </a>
 
@@ -25,11 +32,7 @@ const Navbar = () => {
             <a
               key={item.label}
               href={item.href}
-<<<<<<< HEAD
               className="text-sm font-medium text-foreground/70 px-4 py-1.5 rounded-full transition-all duration-200 hover:bg-hero hover:text-primary-foreground"
-=======
-              className="text-sm font-medium text-foreground/70 hover:text-primary-foreground hover:bg-primary px-4 py-1.5 rounded-full transition-all duration-200"
->>>>>>> b900b43c83ce5f8ba178e7e70b61c13099ae5d3d
             >
               {item.label}
             </a>
