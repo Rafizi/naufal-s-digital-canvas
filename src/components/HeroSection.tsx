@@ -1,5 +1,5 @@
 import heroBg from "@/assets/hero-bg.jpg";
-import naufalPhoto from "@/assets/naufal-photo.png";
+import naufalPhoto from "@/assets/naufal-photo.webp";
 import { ChevronDown } from "lucide-react";
 import { motion } from "framer-motion";
 
