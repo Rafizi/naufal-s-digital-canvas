@@ -5,8 +5,8 @@ import { motion } from "framer-motion";
 
 const stats = [
 { value: "2+", label: "Years Exp." },
-{ value: "8+", label: "Projects" },
-{ value: "5+", label: "Roles" }];
+{ value: "5+", label: "Projects" },
+{ value: "3+", label: "Roles" }];
 
 
 const HeroSection = () =>

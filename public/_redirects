@@ -1,0 +1,5 @@
+# Netlify SPA Redirect
+# Semua URL diarahkan ke index.html agar React Router bisa handle routing-nya
+# Tanpa ini, refresh di halaman selain / akan return 404
+
+/* /index.html 200

@@ -10,5 +10,10 @@ Allow: /
 User-agent: facebookexternalhit
 Allow: /
 
+
+# Izinkan semua bot untuk crawl semua halaman
 User-agent: *
 Allow: /
+
+# Lokasi sitemap agar Google tahu peta halaman website-mu
+Sitemap: https://naufalarrafizi.my.id/sitemap.xml
