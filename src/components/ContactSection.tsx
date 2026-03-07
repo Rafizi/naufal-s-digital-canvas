@@ -3,8 +3,8 @@ import ScrollReveal from "./ScrollReveal";
 import { useState } from "react";
 
 const socials = [
-  { icon: Github, label: "GitHub", href: "https://github.com" },
-  { icon: Linkedin, label: "LinkedIn", href: "https://linkedin.com" },
+  { icon: Github, label: "GitHub", href: "https://github.com/Rafizi" },
+  { icon: Linkedin, label: "LinkedIn", href: "https://www.linkedin.com/in/naufal-ar-rafizi/" },
   { icon: Instagram, label: "@naufal.rfz", href: "https://instagram.com/naufal.rfz" },
 ];
 
