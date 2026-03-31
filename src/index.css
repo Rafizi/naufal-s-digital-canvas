@@ -55,25 +55,25 @@
     @apply border-border;
   }
 
+  html,
   body {
+    overflow-x: hidden;
+    position: relative;
+    width: 100%;
     @apply bg-background text-foreground font-body antialiased;
-  }
-
-  html {
     scroll-behavior: smooth;
+
   }
 }
 
 @layer components {
   .stamp-border {
     @apply border-2 border-dashed border-primary/30 p-1;
-    background: repeating-conic-gradient(hsl(var(--primary) / 0.05) 0% 25%, transparent 0% 50%) 
-      50% / 12px 12px;
+    background: repeating-conic-gradient(hsl(var(--primary) / 0.05) 0% 25%, transparent 0% 50%) 50% / 12px 12px;
   }
 
   .glass-button {
-    @apply relative overflow-hidden backdrop-blur-md bg-primary/90 text-primary-foreground 
-      border border-primary/20 shadow-lg hover:bg-primary/95 transition-all duration-300;
+    @apply relative overflow-hidden backdrop-blur-md bg-primary/90 text-primary-foreground border border-primary/20 shadow-lg hover:bg-primary/95 transition-all duration-300;
   }
 
   .glass-card {
